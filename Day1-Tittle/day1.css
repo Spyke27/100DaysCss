@@ -1,0 +1,88 @@
+.container{
+    background-color: rgba(56, 128, 210, 0.982);
+    width: 500px;
+    height: 500px;   
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.center{
+    background: linear-gradient(45deg, rgb(68, 66, 162) 20%, rgb(77, 185, 198));
+    width: 400px;
+    height: 400px;   
+    position: relative;
+    margin: auto;
+    box-shadow: 5px 7px 100px rgba(0, 9, 11, 0.895);
+    border-radius: 200px;
+}
+.one-one{
+    width: 20px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: #fff;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 90px;
+    left: 85px;
+    transform: rotate(45deg);   
+}
+.one-two{
+    width: 21px;
+    height: 100px;
+    border-radius: 2px;
+    background-color: #fff;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 90px;
+    left: 100px;
+    z-index: 3;
+}
+.zero-one {
+    width: 50px;
+    height: 50px;
+    top: 90px;
+    border: 27px solid #fff;
+    position: absolute;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 50%;
+    left: 110px;
+    z-index: 2;
+}
+.zero-two {
+    width: 50px;
+    height: 50px;
+    top: 90px;
+    border: 27px solid #fff;
+    position: absolute;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 50%;
+    left: 200px;
+    z-index: 1;
+}
+.big{
+    font-family: sans-serif;
+    font-size: 70px;
+    margin: 0;
+    top: 200px;
+    color: #fff;
+    left: 100px;
+    position: relative;
+    display: block;
+    width: 50%;
+    text-shadow:2px 3px 4px rgba(0, 0, 0, 0.4);
+}
+.small{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 0;
+    top: 200px;
+    color: #fff;
+    left: 100px;
+    position: relative;
+    text-shadow:2px 3px 4px rgba(0, 0, 0, 0.4);
+
+}
